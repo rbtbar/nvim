@@ -2,6 +2,9 @@
 -- This is just pure lua so anything that doesn't
 -- fit in the normal config locations above can go here
 
+-- Allow project-specific .nvim.lua config files
+vim.opt.exrc = true
+
 -- Auto-reload files changed externally (Claude Code workflow)
 vim.opt.autoread = true
 
