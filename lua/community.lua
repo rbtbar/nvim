@@ -3,5 +3,11 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  {
+    "loctvl842/monokai-pro.nvim",
+    opts = {
+      filter = "spectrum",
+    },
+  },
 }
